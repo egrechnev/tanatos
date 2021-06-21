@@ -111,14 +111,14 @@ $(document).ready(function() {
   });
 
     //Chrome Smooth Scroll
-  try {
-    $.browserSelector();
-    if($("html").hasClass("chrome")) {
-      $.smoothScroll();
-    }
-  } catch(err) {
+  // try {
+  //   $.browserSelector();
+  //   if($("html").hasClass("chrome")) {
+  //     $.smoothScroll();
+  //   }
+  // } catch(err) {
 
-  }
+  // }
 
 //Fake links
   var links = document.querySelectorAll('a[data-fake-link], input[name=submit]');
